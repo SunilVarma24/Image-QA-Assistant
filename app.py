@@ -7,7 +7,7 @@ from langchain_core.messages import HumanMessage
 
 # Customize initial app landing page
 st.set_page_config(page_title="Image QA Assistant", page_icon="🤖")
-st.title("🤖 Welcome to the Image QA Assistant""")
+st.title("🤖 Welcome to the Image QA Assistant")
 
 # Function to process uploaded images and generate base64 encoded strings
 def process_uploaded_image(uploaded_file):
